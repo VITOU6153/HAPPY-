@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY BIRTHDAY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <img src="1.jpg" alt="🎂HAPPY BIRTHDAY TO YOU🎂" class="card-image">
+        <div class="text">
+            <h1>❤️Hello my special person❤️</h1>
+            <p>Happy special birthday! Today is you birthday to celebrate your day. In the journey of your life , i'm grateful to have you to my side.
+                <br><br> between seas, galaxies, sun moon and stars,you're the brightest world to me. i'm so happy to have you into my life. i stepped on the same land, I dream under the same stars as you.
+                <br><br> right now, I want to tell you that you are the most special person in my life. I love you so much and wish you all the happeness in your life. i hope you have everything that you want in your dream and life.
+                <br><br> I wish you a very happy birthday and may all your dreams come true. You deserve all the love and enjoy in the world . Thank you , and for being a part of my life.
+                <br><br> In your birthday, i hope you get the everything after you pray, i wish you all the dreams come true that you want it. the last i want to say I love you so much and enjoy your birthday 🎂🎉.</p>
+            <p class="muted">🫶Form me your boyfriend🫶</p>
+        </div>
+        <div class="space"></div>
+        <audio controls autoplay>
+                        <source src="hbd.mp3"type="audio/mp3"> your browser does not support the audio element.
+                </audio>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
+<style>
+    @import url("https://fonts.googlepis.com/css2family=Open+sans&display=swap");
+    * {
+        transition: all 0.2 ease-in-out;
+    }
+    
+    body {
+        background: #6c63ff;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+        color: #fff;
+    }
+    
+    .card {
+        background: #dfdfdf;
+        border-radius: 4px;
+        height: 85vh;
+        width: 80vw;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: lem;
+        overflow: hidden;
+    }
+    
+    @media only screen and (min-width: 1000px) {
+        .card img.birthday {
+            width: 100%;
+            max-width: 50vw;
+            max-height: unset;
+        }
+    }
+    
+    @media only screen and (max-height: 640px) {
+        .card {
+            flex-direction: row-reverse;
+        }
+        .card img.birthday {
+            width: 100%;
+            max-width: 50vw;
+            min-height: unset;
+        }
+    }
+    
+    img.birthday {
+        max-height: 40vh;
+    }
+    
+    .text {
+        padding: lem;
+        color: #333;
+    }
+    
+    .muted {
+        opacity: 0.8;
+    }
+    
+    .space {
+        height: 100px;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    body.play-music {
+        animation: fadeIn 2s ease-in-out;
+    }
+</style>
